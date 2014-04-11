@@ -11,7 +11,9 @@ discorde.zone =  [
     "frontiere":true,
     "airport": true,
     "port": true,
-    "voisin": [1]
+    "voisin": [1],
+    "vaccin":false,
+    "remede":false
   },
 
   {
@@ -26,7 +28,9 @@ discorde.zone =  [
     "frontiere":true,
     "airport": true,
     "port": true,
-    "voisin": [1,3]
+    "voisin": [1,3],
+    "vaccin":false,
+    "remede":false
   },
 
   {
@@ -41,7 +45,9 @@ discorde.zone =  [
     "frontiere":true,
     "airport": true,
     "port": true,
-    "voisin": [1]
+    "voisin": [1],
+    "vaccin":false,
+    "remede":false
   },
 
   {
@@ -56,7 +62,9 @@ discorde.zone =  [
     "frontiere":true,
     "airport": true,
     "port": true,
-    "voisin": [2]
+    "voisin": [2],
+    "vaccin":false,
+    "remede":false
   },
 
   {
@@ -71,7 +79,9 @@ discorde.zone =  [
     "frontiere":true,
     "airport": true,
     "port": true,
-    "voisin": [2]
+    "voisin": [2],
+    "vaccin":false,
+    "remede":false
   },
 
   {
@@ -86,7 +96,9 @@ discorde.zone =  [
     "frontiere":true,
     "airport": true,
     "port": true,
-    "voisin": [7]
+    "voisin": [7],
+    "vaccin":false,
+    "remede":false
   },
 
   {
@@ -101,7 +113,9 @@ discorde.zone =  [
     "frontiere":true,
     "airport": true,
     "port": true,
-    "voisin": [7]
+    "voisin": [7],
+    "vaccin":false,
+    "remede":false
   },
 
   {
@@ -116,7 +130,9 @@ discorde.zone =  [
     "frontiere":true,
     "airport": true,
     "port": true,
-    "voisin": [3]
+    "voisin": [3],
+    "vaccin":false,
+    "remede":false
   },
 
   {
@@ -131,7 +147,9 @@ discorde.zone =  [
     "frontiere":true,
     "airport": true,
     "port": true,
-    "voisin": [3]
+    "voisin": [3],
+    "vaccin":false,
+    "remede":false
   },
 
   {
@@ -146,7 +164,9 @@ discorde.zone =  [
     "frontiere":true,
     "airport": true,
     "port": true,
-    "voisin": [3]
+    "voisin": [3],
+    "vaccin":false,
+    "remede":false
   },
 
   {
@@ -161,7 +181,9 @@ discorde.zone =  [
     "frontiere":true,
     "airport": true,
     "port": true,
-    "voisin": [6,5,3]
+    "voisin": [6,5,3],
+    "vaccin":false,
+    "remede":false
   },
 
   {
@@ -176,7 +198,9 @@ discorde.zone =  [
     "frontiere":true,
     "airport": true,
     "port": true,
-    "voisin": [5,6]
+    "voisin": [5,6],
+    "vaccin":false,
+    "remede":false
   },
 
   {
@@ -191,7 +215,9 @@ discorde.zone =  [
     "frontiere":true,
     "airport": true,
     "port": true,
-    "voisin": [5]
+    "voisin": [5],
+    "vaccin":false,
+    "remede":false
   },
 
   {
@@ -206,7 +232,9 @@ discorde.zone =  [
     "frontiere":true,
     "airport": true,
     "port": true,
-    "voisin": [4,5,6]
+    "voisin": [4,5,6],
+    "vaccin":false,
+    "remede":false
   },
 
   {
@@ -221,7 +249,9 @@ discorde.zone =  [
     "frontiere":true,
     "airport": true,
     "port": true,
-    "voisin": [4]
+    "voisin": [4],
+    "vaccin":false,
+    "remede":false
   },
 
   {
@@ -236,7 +266,9 @@ discorde.zone =  [
     "frontiere":true,
     "airport": true,
     "port": true,
-    "voisin": [3]
+    "voisin": [3],
+    "vaccin":false,
+    "remede":false
   },
 
   {
@@ -251,6 +283,8 @@ discorde.zone =  [
     "frontiere":true,
     "airport": true,
     "port": true,
-    "voisin": [3]
+    "voisin": [3],
+    "vaccin":false,
+    "remede":false
   }
 ]

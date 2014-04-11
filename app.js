@@ -400,7 +400,8 @@ discorde.app = {
 		var zone = discorde.zone;
 		for(var i =0; i < zone.length; i++){
 			var slug = zone[i].pays.replace(/ /g,"-").replace(/'/g,'-').toLowerCase();
-			if (slug == that) {
+			if (slug == that.country) {
+				console.log(zone[i].frontiere);
 				zone[i].frontiere = false;
 			}
 		}
@@ -411,7 +412,7 @@ discorde.app = {
 		var zone = discorde.zone;
 		for(var i =0; i < zone.length; i++){
 			var slug = zone[i].pays.replace(/ /g,"-").replace(/'/g,'-').toLowerCase();
-			if (slug == that) {
+			if (slug == that.country) {
 				zone[i].airport = false;
 			}
 		}
@@ -422,21 +423,43 @@ discorde.app = {
 		var zone = discorde.zone;
 		for(var i =0; i < zone.length; i++){
 			var slug = zone[i].pays.replace(/ /g,"-").replace(/'/g,'-').toLowerCase();
-			if (slug == that) {
+			if (slug == that.country) {
 				zone[i].port = false;
 			}
 		}
 	},
 
 	Vaccin: function(){
-
+		that = this;
+		var zone = discorde.zone;
+		for(var i =0; i < zone.length; i++){
+			var slug = zone[i].pays.replace(/ /g,"-").replace(/'/g,'-').toLowerCase();
+			if (slug == that.country) {
+				zone[i].vaccin = true;
+			}
+		}
 	},
 
 	Purge: function(){
-
+		that = this;
+		var zone = discorde.zone;
+		for(var i =0; i < zone.length; i++){
+			var slug = zone[i].pays.replace(/ /g,"-").replace(/'/g,'-').toLowerCase();
+			if (slug == that.country) {
+				zone[i].population = 0;
+				zone[i].infected = 0;
+			}
+		}
 	},
 
 	Recherche: function(){
-
+		that = this;
+		var zone = discorde.zone;
+		for(var i =0; i < zone.length; i++){
+			var slug = zone[i].pays.replace(/ /g,"-").replace(/'/g,'-').toLowerCase();
+			if (slug == that.country) {
+				zone[i].remede = true;
+			}
+		}
 	}
 }
