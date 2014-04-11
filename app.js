@@ -87,6 +87,7 @@ discorde.app = {
     day:1,
 
     init: function(){
+    	console.log("Made with ♥ in Paris by Baloran - http://baloran.fr")
     	that = this
     	this.maps();
     	that.getPopulation();
@@ -104,7 +105,6 @@ discorde.app = {
     },
 
     start: function(){
-    	
     	setInterval(function(){
     		that.colorCountry(that.map);
     		that.getPopulation();
@@ -353,7 +353,6 @@ discorde.app = {
 				for(var j =0;j < pop[i].voisin.length;j++){
 					for(var k =0;k < pop.length;k++){
 						if ($.inArray(pop[i].voisin[j],pop[k].voisin) && pop[k].infected == 0) {
-							console.log(pop[k].pays)
 							pop[k].infected += 1;
 						}
 					}
@@ -401,7 +400,6 @@ discorde.app = {
 		for(var i =0; i < zone.length; i++){
 			var slug = zone[i].pays.replace(/ /g,"-").replace(/'/g,'-').toLowerCase();
 			if (slug == that.country) {
-				console.log(zone[i].frontiere);
 				zone[i].frontiere = false;
 			}
 		}
