@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Discorde</title>
+  <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBDNjxJyDL3eE0PMYT2G3imVdXR31Uuvmo&sensor=false">
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="library/danger.js"></script>
+    <script src="library/transport.js"></script>
+    <script src="library/calcul.js"></script>
+    <script src="library/population.js"></script>
+    <script src="app.js"></script>
+    <script>
+    $(window).load(function() {
+      $(".loader").fadeOut("slow");
+    })
+    </script>
+</head>
+<body>
+<div class="loader">
+  <div class="clock">
+    <div class="minutes"></div>
+    <div class="hours"></div>
+  </div>
+</div>
+  <div id="player">
+    <h2>Choisissez un pseudo:</h2>
+    <form action="#" id="startparty">
+      <input type="text" placeholder="Pseudo" id="pseudo"> <br>
+      <input type="submit">
+    </form>
+    
+  </div>
+  <header>
+    <h2>Discorde</h2>
+  </header>
+  <div id="country"></div>
+  <div id="list"></div>
+  <div id="timer"> 1 day</div>
+  <div id="menu">
+    <ul>
+      <li class="bouton1"><a href="#"></a></li><li class="bouton2"><a href="#"></a></li><li class="bouton3"><a href="#"></a></li><li class="bouton4"><a href="#"></a></li><li class="bouton5"><a href="#"></a></li><li class="bouton6"><a href="#"></a></li>
+    </ul>
+  </div>
+  <div class="stats">
+      <div id="zombie"></div>
+      <div id="humain"></div>
+  </div>
+  <div id="map-canvas"></div>
+  <script>
+  $(function () {
+    discorde.app.init()
+  });
+  </script>
+</body>
+</html>
